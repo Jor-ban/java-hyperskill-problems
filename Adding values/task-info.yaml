@@ -1,0 +1,30 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+
+    public class Main {
+
+        // write a method here
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            long[] array = Arrays.stream(scanner.nextLine().split(" "))
+                    .mapToLong(Long::parseLong)
+                    .toArray();
+            int index = scanner.nextInt();
+            long value = scanner.nextLong();
+            addValueByIndex(array, index, value);
+            Arrays.stream(array).forEach(e -> System.out.print(e + " "));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2759
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2759">JetBrains
+    Academy</a></html>
+  time: Mon, 20 Jul 2020 17:50:44 UTC
+record: -1

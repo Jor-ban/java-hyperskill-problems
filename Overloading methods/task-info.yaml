@@ -1,0 +1,54 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static long getMaxMinusCurrent(long val) {
+            return Long.MAX_VALUE - val;
+        }
+
+        // write a method here
+        // public static ...
+
+        // write a method here
+        // public static ...
+
+        // Do not change code below
+
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final String type = scanner.nextLine();
+            switch (type) {
+                case "long":
+                    final long longVal = Long.parseLong(scanner.nextLine());
+                    final long longResult = getMaxMinusCurrent(longVal);
+                    System.out.println(longResult);
+                    break;
+                case "int":
+                    final int intVal = Integer.parseInt(scanner.nextLine());
+                    final int intResult = getMaxMinusCurrent(intVal);
+                    System.out.println(intResult);
+                    break;
+                case "short":
+                    final short shortVal = Short.parseShort(scanner.nextLine());
+                    final short shortResult = getMaxMinusCurrent(shortVal);
+                    System.out.println(shortResult);
+                    break;
+                default:
+                    System.out.println("Unknown type found");
+                    break;
+            }
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2753
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2753">JetBrains
+    Academy</a></html>
+  time: Mon, 20 Jul 2020 17:33:53 UTC
+record: -1

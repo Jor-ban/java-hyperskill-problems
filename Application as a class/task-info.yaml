@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Application {
+
+        String name;
+
+        void run(String[] args) {
+            // implement me
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2954
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2954">JetBrains
+    Academy</a></html>
+  time: Mon, 20 Jul 2020 18:25:09 UTC
+record: -1

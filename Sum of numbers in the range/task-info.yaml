@@ -1,0 +1,20 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "import java.util.Scanner;\n\npublic class Main {\n\n    /**\n     * The method\
+    \ calculates the sum of integers in a given range\n     * \n     * @param from\
+    \ inclusive\n     * @param to exclusive\n     *\n     * @return the sum (long)\n\
+    \     */\n    public static long sumInRange(int from, int to) {\n        // write\
+    \ your code here\n    }\n\n    /* Do not change code below */\n    public static\
+    \ void main(String[] args) {\n        final Scanner scanner = new Scanner(System.in);\n\
+    \n        int from = scanner.nextInt();\n        int to = scanner.nextInt();\n\
+    \n        System.out.println(sumInRange(from, to));\n    } \n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2243
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2243">JetBrains
+    Academy</a></html>
+  time: Mon, 20 Jul 2020 15:24:34 UTC
+record: -1

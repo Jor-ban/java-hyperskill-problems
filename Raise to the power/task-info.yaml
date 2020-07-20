@@ -1,0 +1,29 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static long power(int n, int m) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final int n = scanner.nextInt();
+            final int m = scanner.nextInt();
+            System.out.println(power(n, m));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2727
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2727">JetBrains
+    Academy</a></html>
+  time: Mon, 20 Jul 2020 15:28:29 UTC
+record: -1
