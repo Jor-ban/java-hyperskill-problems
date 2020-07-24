@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            String regex = "write-your-regex-here";
+
+            String time = scanner.nextLine();
+            System.out.println(time.matches(regex) ? "YES" : "NO");
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4342
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/4342">JetBrains
+    Academy</a></html>
+  time: Fri, 24 Jul 2020 22:13:24 UTC
+record: -1
