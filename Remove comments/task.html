@@ -1,0 +1,11 @@
+<b>Remove comments</b> <a class=right href="https://hyperskill.org/learn/step/4346">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>You are given a line of Java code. The author of the code tried to be a good programmer and left a lot of comments. Now, however, someone wants to actually understand how this code works, but these comments happen to be pretty uninformative and describe obvious things. Also, they slow down the process of code reading.</p> 
+  <p>Your task is to delete all these ugly useless comments from the code.</p> 
+  <p>The programmer wrote <code class="java">"/* this type of comments */"</code> as well as <code class="java">"// this type of comments"</code>.</p>
+ </body>
+</html><br><b>Sample Input:</b><br>Integer variable /* it only contains integers */= new Integer("0"); // now contains zero<br><b>Sample Output:</b><br>Integer variable = new Integer("0");<br><br><b>Sample Input:</b><br>/* new line */String /* we need String, not int */s /* bad name, I think */= "123";<br><b>Sample Output:</b><br>String s = "123";<br><br><b>Sample Input:</b><br>int b = 0;/* expression */ b = b /* **/* b /* b * b = b squared */; // 0 * 0 = 0<br><b>Sample Output:</b><br>int b = 0; b = b * b ;<br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/3708">Show topic summary</a>

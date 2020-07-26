@@ -18,9 +18,9 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/4343
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #8 of 18. Wrong answer
-  time: Sun, 26 Jul 2020 11:18:14 UTC
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/4343">JetBrains
+    Academy</a></html>
+  time: Sun, 26 Jul 2020 14:59:01 UTC
 record: -1

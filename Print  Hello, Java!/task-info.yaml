@@ -11,6 +11,9 @@ files:
         }
     }
   learner_created: false
+- name: src/Main.class
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/4335
 status: Solved
 feedback:

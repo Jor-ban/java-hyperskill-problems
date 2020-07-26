@@ -1,0 +1,25 @@
+type: code
+custom_name: What's wrong?
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    port java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            int number = scanner.nextInt();
+
+            System.out.println(nextInt);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3752
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3752">JetBrains
+    Academy</a></html>
+  time: Sun, 26 Jul 2020 18:16:48 UTC
+record: -1

@@ -1,0 +1,30 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class FixingArithmeticException {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int c = scanner.nextInt();
+            int d = scanner.nextInt();
+
+            int result = a / ((b + c) / d);
+
+            System.out.println(result);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2472
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2472">JetBrains
+    Academy</a></html>
+  time: Sun, 26 Jul 2020 18:26:29 UTC
+record: -1

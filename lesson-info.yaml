@@ -41,3 +41,10 @@ content:
 - Find a word with a given length
 - Start or end of a word
 - Number parsing
+- Remove extra spaces
+- Remove HTML tags
+- Remove comments
+- Fix the program
+- What's wrong
+- Fix compile-time errors
+- Avoid division by zero

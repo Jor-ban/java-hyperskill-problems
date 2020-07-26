@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public clazz Main {
+        public static void main(String[] args) {
+            scanner = new Scanner(System.in);
+
+            String line1 = scanner.nextLine();
+            String line2 = scanner.nextLine();
+
+            System.out.println(line1);
+            System.out.println(line2);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3751
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3751">JetBrains
+    Academy</a></html>
+  time: Sun, 26 Jul 2020 18:19:45 UTC
+record: -1
