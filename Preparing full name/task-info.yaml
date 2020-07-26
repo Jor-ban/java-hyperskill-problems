@@ -1,0 +1,34 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static String prepareFullName(String firstName, String lastName) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+
+            String firstName = scanner.nextLine();
+            firstName = "null".equals(firstName) ? null : firstName;
+
+            String lastName = scanner.nextLine();
+            lastName = "null".equals(lastName) ? null : lastName;
+
+            System.out.println(prepareFullName(firstName, lastName));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2265
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2265">JetBrains
+    Academy</a></html>
+  time: Sat, 25 Jul 2020 12:39:56 UTC
+record: -1

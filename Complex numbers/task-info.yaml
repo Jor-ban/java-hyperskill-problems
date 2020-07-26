@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: // write the class Complex here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2940
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2940">JetBrains
+    Academy</a></html>
+  time: Fri, 24 Jul 2020 23:16:02 UTC
+record: -1

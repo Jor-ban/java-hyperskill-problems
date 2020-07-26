@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            String regex = "write-your-regex-here";
+
+            String number = scanner.nextLine();
+            System.out.println(number.matches(regex) ? "YES" : "NO");
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4343
+status: Failed
+feedback:
+  message: |
+    Failed test #8 of 18. Wrong answer
+  time: Sun, 26 Jul 2020 11:18:14 UTC
+record: -1
