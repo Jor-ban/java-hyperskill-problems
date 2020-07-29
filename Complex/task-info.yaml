@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Complex {
+
+        private double real;
+        private double imaginary;
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3022
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3022">JetBrains
+    Academy</a></html>
+  time: Wed, 29 Jul 2020 19:14:58 UTC
+record: -1

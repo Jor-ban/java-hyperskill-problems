@@ -1,0 +1,22 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class ArraySorting {
+        /**
+         * @param array unordered sequence of strings
+         * @return ordered array of strings
+         */
+        public static String[] sortArray(String[] array) {
+            // write your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9896
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9896">JetBrains
+    Academy</a></html>
+  time: Wed, 29 Jul 2020 15:01:48 UTC
+record: -1

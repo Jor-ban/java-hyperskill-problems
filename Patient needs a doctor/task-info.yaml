@@ -1,0 +1,19 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Patient {
+
+        String name;
+
+        // write your method here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2950
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2950">JetBrains
+    Academy</a></html>
+  time: Wed, 29 Jul 2020 18:33:37 UTC
+record: -1

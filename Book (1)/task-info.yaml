@@ -1,0 +1,15 @@
+type: code
+custom_name: Book
+files:
+- name: src/Main.java
+  visible: true
+  text: "class Book {\n\n    private String title;\n    private int yearOfPublishing;\n\
+    \    private String[] authors;   \n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3024
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3024">JetBrains
+    Academy</a></html>
+  time: Wed, 29 Jul 2020 19:41:40 UTC
+record: -1

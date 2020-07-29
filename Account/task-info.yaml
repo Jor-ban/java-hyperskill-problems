@@ -1,0 +1,19 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Account {
+
+        private long balance;
+        private String ownerName;
+        private boolean locked;
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3023
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3023">JetBrains
+    Academy</a></html>
+  time: Wed, 29 Jul 2020 19:18:33 UTC
+record: -1
