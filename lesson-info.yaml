@@ -48,3 +48,6 @@ content:
 - What's wrong
 - Fix compile-time errors
 - Avoid division by zero
+- Extracting big numbers from a text
+- Extracting words from a text
+- Find all passwords
