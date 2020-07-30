@@ -1,0 +1,36 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public class Main {
+
+        public static void main(String[] args) {
+            // write your code using the existing class ConstantsAndUtilities
+        }
+
+    }
+
+    // Don't change this class
+    class ConstantsAndUtilities {
+
+        public static final String A_CONSTANT_TTT = "1234";
+
+        public static final String B_CONSTANT_QQQ = "7890";
+
+        public static String getMagicString() {
+            return A_CONSTANT_TTT + B_CONSTANT_QQQ;
+        }
+
+        public static String convertStringToAnotherString(String s) {
+            return A_CONSTANT_TTT + s;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3012
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3012">JetBrains
+    Academy</a></html>
+  time: Thu, 30 Jul 2020 08:38:17 UTC
+record: -1
