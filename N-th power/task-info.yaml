@@ -1,0 +1,29 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static double pow(double a, long n) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final double a = Double.parseDouble(scanner.nextLine());
+            final int n = Integer.parseInt(scanner.nextLine());
+            System.out.println(pow(a, n));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3118
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3118">JetBrains
+    Academy</a></html>
+  time: Fri, 31 Jul 2020 07:57:31 UTC
+record: -1

@@ -1,0 +1,31 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class ConcatenateStringsProblem {
+
+        public static String concatenateStringsWithoutDigits(String[] strings) {
+            // write your code with StringBuilder here
+        }
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            String[] strings = scanner.nextLine().split("\\s+");
+            String result = concatenateStringsWithoutDigits(strings);
+            System.out.println(result);
+        }
+    }
+  learner_created: false
+- name: src/ConcatenateStringsProblem.class
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/3813
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3813">JetBrains
+    Academy</a></html>
+  time: Sat, 01 Aug 2020 10:29:03 UTC
+record: -1

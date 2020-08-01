@@ -1,0 +1,28 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static long fib(long n){
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int n = scanner.nextInt();
+            System.out.println(fib(n));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3123
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3123">JetBrains
+    Academy</a></html>
+  time: Sat, 01 Aug 2020 09:53:46 UTC
+record: -1
