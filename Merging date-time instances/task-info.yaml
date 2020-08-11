@@ -1,0 +1,30 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.time.LocalDateTime;
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static LocalDateTime merge(LocalDateTime dateTime1, LocalDateTime dateTime2) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final LocalDateTime firstDateTime = LocalDateTime.parse(scanner.nextLine());
+            final LocalDateTime secondDateTime = LocalDateTime.parse(scanner.nextLine());
+            System.out.println(merge(firstDateTime, secondDateTime));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2860
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2860">JetBrains
+    Academy</a></html>
+  time: Mon, 03 Aug 2020 07:22:14 UTC
+record: -1

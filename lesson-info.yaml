@@ -88,3 +88,11 @@ content:
 - Return time without seconds
 - Some hours and minutes ago
 - Seconds between two time points
+- Subtracting hours and adding minutes
+- Merging date-time instances
+- Whole hours between two date-time pairs
+- The number of tens
+- Find the latest date-time
+- Don't be late again
+- How many date-time pairs match the range
+- The intersection of time ranges
