@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Arrays;
+
+    public class Main {
+
+        public static void main(String[] args) {
+
+            char[] characters;
+
+            System.out.println(Arrays.toString(characters));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2707
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2707">JetBrains
+    Academy</a></html>
+  time: Tue, 11 Aug 2020 09:50:18 UTC
+record: -1

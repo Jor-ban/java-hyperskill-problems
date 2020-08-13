@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.io.BufferedReader;
+    import java.io.InputStreamReader;
+
+    class Main {
+        public static void main(String[] args) throws Exception {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            // start coding here
+            reader.close();
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9098
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9098">JetBrains
+    Academy</a></html>
+  time: Thu, 13 Aug 2020 14:34:36 UTC
+record: -1
