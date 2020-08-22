@@ -1,0 +1,22 @@
+<b>Employees</b> <a class=right href="https://hyperskill.org/learn/step/2206">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>Develop a class hierarchy of employees. The hierarchy should include three classes:</p> 
+  <ul> 
+   <li><strong>Employee</strong> is the base class. It includes three fields (<code class="language-java">name</code>, <code class="language-java">email</code> and integer variable <code class="language-java">experience</code>), one constructor with three arguments and three getters: <code class="language-java">getName()</code>, <code class="language-java">getEmail()</code>, <code class="language-java">getExperience()</code>.</li> 
+   <li><strong>Developer</strong> is a subclass. It includes fields from the base class and two additional fields (<code class="language-java">mainLanguage</code>, <code class="language-java">skills</code>), one constructor with five arguments and two getters: <code class="language-java">getMainLanguage()</code>, <code class="language-java">getSkills()</code>.</li> 
+   <li><strong>DataAnalyst</strong> is another subclass. It includes fields from the base class and two additional fields (<code class="language-java">phd</code>, <code class="language-java">methods</code>), one constructor with five arguments and two getters: <code class="language-java">isPhd()</code>, <code class="language-java">getMethods()</code>.</li> 
+  </ul> 
+  <p>You need <strong>to define types of the fields and write suitable constructors. </strong>To understand it see the code below.</p> 
+  <pre><code class="language-java">String[] skills = { "git", "Scala", "JBoss", "UML" };
+Developer developer = new Developer("Mary", "mary@mail.com", 3, "Java", skills);
+
+String[] methods= { "neural networks", "decision tree", "bayesian algorithms" };
+DataAnalyst analyst = new DataAnalyst("John", "john@gmail.com", 2, true, methods);</code></pre> 
+  <p>It should work correctly with your class hierarchy. Do not forget to write getters with the specified name (otherwise the test system won't be able to check your solution).</p> 
+  <p>Do not make your classes <code class="language-java">public</code>!</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/3588">Show topic summary</a>

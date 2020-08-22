@@ -1,0 +1,44 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Shape {
+        public double area() {
+            return 0;
+        }
+    }
+
+    class Triangle extends Shape {
+        double height;
+        double base;
+
+        // override the method here
+    }
+
+    class Circle extends Shape {
+        double radius;
+
+        // override the method here
+    }
+
+    class Square extends Shape {
+        double side;
+
+        // override the method here
+    }
+
+    class Rectangle extends Shape {
+        double width;
+        double height;
+
+        // override the method here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3823
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3823">JetBrains
+    Academy</a></html>
+  time: Sat, 22 Aug 2020 06:55:29 UTC
+record: -1

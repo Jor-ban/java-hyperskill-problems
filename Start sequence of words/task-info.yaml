@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "import java.util.Scanner;\n\npublic class Main {\n    public static void\
+    \ main(String[] args) throws Exception {\n        Scanner scanner = new Scanner(System.in);\n\
+    \        String line = scanner.nextLine();\n\n        String regex = // set a\
+    \ correct regex here;\n\n        // no need to change code below \n        for\
+    \ (String word : line.split(\" \")) {\n            if (word.matches(regex)) {\n\
+    \                System.out.println(word);\n            }\n        }\n    }\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9953
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9953">JetBrains
+    Academy</a></html>
+  time: Sat, 22 Aug 2020 06:30:40 UTC
+record: -1

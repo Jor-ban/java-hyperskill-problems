@@ -1,0 +1,65 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Publication {
+
+        private String title;
+
+        public Publication(String title) {
+            this.title = title;
+        }
+
+        public String getDetails() {
+            return "title=\"" + title + "\"";
+        }
+
+    }
+
+    class Newspaper extends Publication {
+
+        private String source;
+
+        public Newspaper(String title, String source) {
+            super(title);
+            this.source = source;
+        }
+
+        // write your code here
+
+    }
+
+    class Article extends Publication {
+
+        private String author;
+
+        public Article(String title, String author) {
+            super(title);
+            this.author = author;
+        }
+
+        // write your code here
+
+    }
+
+    class Announcement extends Publication {
+
+        private int daysToExpire;
+
+        public Announcement(String title, int daysToExpire) {
+            super(title);
+            this.daysToExpire = daysToExpire;
+        }
+
+        // write your code here
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4334
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/4334">JetBrains
+    Academy</a></html>
+  time: Sat, 22 Aug 2020 07:07:50 UTC
+record: -1

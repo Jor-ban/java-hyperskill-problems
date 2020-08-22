@@ -1,0 +1,27 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public class Main {
+
+        public static void main(String[] args) {
+
+            System.out.println(1);
+            System.out.println(2);
+            System.out.println(3);
+            System.out.println(4);
+            System.out.println(5);
+            System.out.println(6);
+            System.out.println(7);
+            System.out.println(8);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2496
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2496">JetBrains
+    Academy</a></html>
+  time: Mon, 17 Aug 2020 14:01:15 UTC
+record: -1

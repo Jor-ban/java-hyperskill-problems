@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class BankAccount {
+
+        protected String number;
+        protected Long balance;
+
+        public BankAccount(String number, Long balance) {
+            this.number = number;
+            this.balance = balance;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3042
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3042">JetBrains
+    Academy</a></html>
+  time: Sat, 22 Aug 2020 05:15:59 UTC
+record: -1

@@ -1,0 +1,39 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+
+    class Developer extends Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+
+    class DataAnalyst extends Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2206
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2206">JetBrains
+    Academy</a></html>
+  time: Sat, 22 Aug 2020 06:07:55 UTC
+record: -1
