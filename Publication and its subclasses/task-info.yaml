@@ -1,0 +1,83 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Publication {
+
+        private String title;
+
+        public Publication(String title) {
+            this.title = title;
+        }
+
+        public final String getInfo() {
+            // write your code here
+        }
+
+        public String getType() {
+            return "Publication";
+        }
+
+        public String getDetails() {
+            return "";
+        }
+
+    }
+
+    class Newspaper extends Publication {
+
+        private String source;
+
+        public Newspaper(String title, String source) {
+            super(title);
+            this.source = source;
+        }
+
+        // write your code here
+
+    }
+
+    class Article extends Publication {
+
+        private String author;
+
+        public Article(String title, String author) {
+            super(title);
+            this.author = author;
+        }
+
+        // write your code here
+
+    }
+
+    class Announcement extends Publication {
+
+        private int daysToExpire;
+
+        public Announcement(String title, int daysToExpire) {
+            super(title);
+            this.daysToExpire = daysToExpire;
+        }
+
+        // write your code here
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4331
+status: Failed
+feedback:
+  message: |
+    Failed test #3 of 8. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    Article; Why the Sun is hot; Dr James Smith
+    Correct output:
+    Article (author - Dr James Smith): Why the Sun is hot
+
+    Your code output:
+    Publication: Why the Sun is hot
+  time: Sun, 23 Aug 2020 22:14:05 UTC
+record: -1
