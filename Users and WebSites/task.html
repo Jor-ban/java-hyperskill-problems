@@ -1,0 +1,32 @@
+<b>Users and WebSites</b> <a class=right href="https://hyperskill.org/learn/step/3080">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>You are writing the application which collects information about what sites were visited by what users. There are three classes: <code class="language-java">User</code>, <code class="language-java">WebSite</code> and <code class="language-java">Visit</code>. Many fields and methods of these classes are the same.</p> 
+  <p>Write a new base <strong>abstract</strong> class named <code class="language-java">BaseEntity</code>. Provided classes must extend it. Move all repeating fields and methods to the new class.</p> 
+  <p>After your modifications, the following code must work correctly:</p> 
+  <pre><code class="language-java">User user = new User();
+user.setName("John Grant");
+
+BaseEntity userEntity = user;
+userEntity.setId(100);
+userEntity.setVersion(1);
+
+WebSite site = new WebSite();
+site.setUrl("https://hyperskill.org");
+        
+BaseEntity siteEntity = site;
+siteEntity.setId(101);
+siteEntity.setVersion(1);
+        
+Visit visit = new Visit();
+visit.setUser(user);
+visit.setSite(site);
+        
+BaseEntity baseVisit = visit;
+baseVisit.setId(102);
+baseVisit.setVersion(103);</code></pre>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/3597">Show topic summary</a>

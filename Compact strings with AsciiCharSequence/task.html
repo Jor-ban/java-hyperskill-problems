@@ -1,0 +1,18 @@
+<b>Compact strings with AsciiCharSequence</b> <a class=right href="https://hyperskill.org/learn/step/3082">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>Write a class named <code class="java">AsciiCharSequence</code> that implements compact storage of ASCII-character sequences. Their codes can be stored in one single byte, unlike Unicode characters. Compared to the standard <code class="java">String</code> class, your class will require twice less memory (before Java 9).</p> 
+  <p>The class <code class="java">AsciiCharSequence</code> should:</p> 
+  <ul> 
+   <li>implement the interface <code class="java">java.lang.CharSequence</code>;</li> 
+   <li>have a constructor that takes a byte array;</li> 
+   <li>define methods <code class="java">length</code>, <code class="java">charAt</code>, <code class="java">subSequence</code>, and <code class="java">toString</code>.</li> 
+  </ul> 
+  <p>You can find the declaration of methods and their behavior in the description of <code class="java">java.lang.CharSequence</code> (JavaDoc or sources). Carefully check signatures of abstract methods of <code class="java">java.lang.CharSequence</code> interface, especially <code class="java">subSequence</code> method. It accepts 2 integers: start index (inclusive) and end index (!exclusive). The method returns an object of a class that implements <code class="java">java.lang.CharSequence</code> interface. For example, it can be an instance of <code class="java">AsciiCharSequence</code> class.</p> 
+  <p><strong>Note:</strong> the testing system will always pass correct input parameters to overridden methods.</p> 
+  <p>P.S. The feature is supported since Java 9 in standard strings. For details, see <a target="_blank" href="https://www.baeldung.com/java-9-compact-string" rel="noopener noreferrer nofollow">this article on compact strings in Java 9</a>.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/3615">Show topic summary</a>

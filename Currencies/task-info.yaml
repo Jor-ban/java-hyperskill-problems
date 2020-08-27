@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Currency.java
+  visible: true
+  text: // declare your enum here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2177
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2177">JetBrains
+    Academy</a></html>
+  time: Mon, 24 Aug 2020 09:33:04 UTC
+record: -1

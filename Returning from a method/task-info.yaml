@@ -1,0 +1,19 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Create {
+
+        public static Runnable createRunnable(String text, int repeats) {
+            return // an instance here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2554
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2554">JetBrains
+    Academy</a></html>
+  time: Thu, 27 Aug 2020 16:05:50 UTC
+record: -1

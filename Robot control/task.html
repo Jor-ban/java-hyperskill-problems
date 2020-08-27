@@ -1,0 +1,80 @@
+<b>Robot control</b> <a class=right href="https://hyperskill.org/learn/step/2180">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p></p>
+  <div class="alert alert-primary">
+   Wow! This problem is kind of tricky. If you're ready to put your thinking cap on, brace yourself and good luck! Otherwise, you can skip it for now and return any time later
+  </div>
+  <p></p> 
+  <p>There is a robot in the game field. The position of the robot in this field is described by two integer coordinates: X and Y. The <em>X</em> axis is oriented from left to right, the <em>Y</em> axis — from bottom to top.</p> 
+  <p>At the initial moment, the robot is in some coordinate on the field. It's also known where the robot looks: up, down, to the right or to the left. The initial position of the robot and its direction can have <strong>any values</strong>. <u>You need to bring the robot to the destination point of the game field.</u></p> 
+  <p>A robot is described by the <code class="language-java">Robot</code> class. You can use the following methods of this class (with unknown implementation):</p> 
+  <pre><code class="language-java">public class Robot {
+
+    public Direction getDirection() {
+        // current direction
+    }
+
+    public int getX() {
+        // current X coordinate
+    }
+
+    public int getY() {
+        // current Y o
+    }
+
+    public void turnLeft() {
+        // rotate the robot 90 degrees counterclockwise
+    }
+
+    public void turnRight() {
+        // rotate the robot 90 degrees clockwise
+    }
+
+    public void stepForward() {
+        // take one step in the current direction
+        // x or y coordinate will be changed by 1
+    }
+}</code></pre> 
+  <p>The direction of the robot is an enumeration:</p> 
+  <pre><code class="language-java">public enum Direction {
+    UP,
+    DOWN,
+    LEFT,
+    RIGHT
+}</code></pre> 
+  <p>It looks like the picture below:</p> 
+  <p style="text-align: center;"><img alt="" height="352" src="https://ucarecdn.com/7695bd9a-190b-4769-93ad-dce3b1f4417e/" width="474"></p> 
+  <p><strong>Example</strong></p> 
+  <ul> 
+   <li>The following values are passed to the method: toX == 3, toY == 0. </li> 
+   <li>The initial state of this robot: robot.getX() == 0, robot.getY() == 0, robot.getDirection() == Direction.UP.</li> 
+  </ul> 
+  <p>To bring the robot to the destination point (3, 0), the method should call the following methods:</p> 
+  <pre><code class="language-java">robot.turnRight();
+robot.stepForward();
+robot.stepForward();
+robot.stepForward();</code></pre> 
+  <p><strong>Another Example</strong></p> 
+  <ul> 
+   <li>The following target values are passed to the method: toX == 0, toY == -1.</li> 
+   <li>The initial state of this robot: robot.getX() == 1, robot.getY() == 1, robot.getDirection() == Direction.RIGHT.</li> 
+  </ul> 
+  <p>To bring the robot to the destination point (0, -1), the method should call the following methods:</p> 
+  <pre><code class="language-no-highlight">robot.turnRight();
+robot.turnRight();
+robot.stepForward();
+robot.turnLeft();
+robot.stepForward();
+robot.stepForward();</code></pre> 
+  <p>Try to crack this problem!</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-2893').style.display='inline'"> Hint </button> </p>
+  <div id="hint-2893" style="display:none;">
+   Pay attention to the loops: sometimes they tend to become infinite...
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/8429">Show topic summary</a>

@@ -65,19 +65,9 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/4331
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #3 of 8. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    Article; Why the Sun is hot; Dr James Smith
-    Correct output:
-    Article (author - Dr James Smith): Why the Sun is hot
-
-    Your code output:
-    Publication: Why the Sun is hot
-  time: Sun, 23 Aug 2020 22:14:05 UTC
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/4331">JetBrains
+    Academy</a></html>
+  time: Sun, 23 Aug 2020 22:16:03 UTC
 record: -1

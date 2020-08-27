@@ -1,0 +1,30 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "interface AccountService {\n    /**\n     * It finds an account by owner\
+    \ id\n     * @param id owner unique identifier\n     * @return account or null\n\
+    \     */\n    Account findAccountByOwnerId(long id);\n    /**\n     * It count\
+    \ the number of account with balance > the given value\n     * @param value\n\
+    \     * @return the number of accounts\n     */\n    long countAccountsWithBalanceGreaterThan(long\
+    \ value);\n}\n\n// Declare and implement your AccountServiceImpl here\n\nclass\
+    \ Account {\n\n    private long id;\n    private long balance;\n    private User\
+    \ owner;\n\n    public Account(long id, long balance, User owner) {\n        this.id\
+    \ = id;\n        this.balance = balance;\n        this.owner = owner;\n    }\n\
+    \n    public long getId() { \n        return id; \n    }\n\n    public long getBalance()\
+    \ { \n        return balance; \n    }\n\n    public User getOwner() { \n     \
+    \   return owner; \n    }\n}\n\nclass User {\n\n    private long id;\n    private\
+    \ String firstName;\n    private String lastName;\n\n    public User(long id,\
+    \ String firstName, String lastName) {\n        this.id = id;\n        this.firstName\
+    \ = firstName;\n        this.lastName = lastName;\n    }\n\n    public long getId()\
+    \ { \n        return id; \n    }\n\n    public String getFirstName() { \n    \
+    \    return firstName; \n    }\n\n    public String getLastName() { \n       \
+    \ return lastName; \n    }\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2121
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2121">JetBrains
+    Academy</a></html>
+  time: Thu, 27 Aug 2020 13:57:03 UTC
+record: -1
