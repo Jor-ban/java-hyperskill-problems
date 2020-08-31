@@ -77,7 +77,6 @@ content:
 - Pow
 - Heron's formula
 - The angle between vectors
-- Two numbers never occur next to each other
 - An expression with large numbers
 - Comparing numbers
 - The smallest value
@@ -142,3 +141,15 @@ content:
 - An anonymous class with three methods
 - Returning from a method
 - Output names of the methods
+- Field count
+- Declared fields
+- Retrieve class name
+- Getting Superclass
+- Find the Method
+- List public fields
+- List private fields
+- Two numbers never occur next to each other
+- Next even number
+- Field value
+- Annotated fields
+- Constructor Checker

@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    /**
+     Check whether the class declares public parameterless constructor
+     */
+    class ConstructorChecker {
+
+        public boolean checkPublicParameterlessConstructor(Class<?> clazz) {
+            // Add implementation here
+        }
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2879
+status: Failed
+feedback:
+  message: |
+    Failed. Wrong answer
+  time: Sun, 30 Aug 2020 00:18:34 UTC
+record: -1

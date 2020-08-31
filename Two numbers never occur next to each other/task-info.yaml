@@ -1,21 +1,18 @@
 type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2130
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #2 of 8. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    3
-    1 2 3
-    3 4
-
-    Correct output:
-    true
-
-    Your code output:
-    false
-  time: Sun, 02 Aug 2020 08:30:54 UTC
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2130">JetBrains
+    Academy</a></html>
+  time: Sat, 29 Aug 2020 22:33:51 UTC
 record: -1

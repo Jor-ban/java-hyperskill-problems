@@ -1,0 +1,29 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.lang.annotation.ElementType;
+    import java.lang.annotation.Retention;
+    import java.lang.annotation.RetentionPolicy;
+    import java.lang.annotation.Target;
+    import java.lang.reflect.Method;
+
+    /**
+     Get number of accessible public fields for a given class.
+     */
+    class FieldGetter {
+
+        public int getNumberOfAccessibleFields(Class<?> clazz) {
+            // Add implementation here
+        }
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2881
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2881">JetBrains
+    Academy</a></html>
+  time: Fri, 28 Aug 2020 22:10:08 UTC
+record: -1

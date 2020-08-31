@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.lang.reflect.*;
+
+    /**
+     Get an array of fields the object declares that contain annotations (inherited fields should be skipped).
+     */
+    class AnnotationsUtil {
+
+        public static String[] getFieldsContainingAnnotations(Object object) {
+            // Add implementation here
+        }
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8120
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8120">JetBrains
+    Academy</a></html>
+  time: Sat, 29 Aug 2020 23:44:46 UTC
+record: -1

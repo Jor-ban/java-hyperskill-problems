@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    /**
+     Get name of the class for the object provided.
+     */
+    class ClassGetter {
+
+        public String getObjectClassName(Object object) {
+            // Add implementation here
+        }
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2931
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2931">JetBrains
+    Academy</a></html>
+  time: Sat, 29 Aug 2020 10:48:00 UTC
+record: -1
