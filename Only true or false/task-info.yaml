@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Primitive {
+        public static boolean toPrimitive(Boolean b) {
+            return true;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3014
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3014">JetBrains
+    Academy</a></html>
+  time: Mon, 31 Aug 2020 13:37:29 UTC
+record: -1

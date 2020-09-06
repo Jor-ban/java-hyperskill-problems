@@ -1,0 +1,27 @@
+<h2>Counting 2D shapes</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Below is a part of a class hierarchy consisting of a lot of classes:</p> 
+  <pre><code class="language-java">class Shape { }
+
+class Shape2D extends Shape { }
+
+class Shape3D extends Shape { }
+
+
+class Circle extends Shape2D { }
+
+// ...  classes which extends Shape2D
+
+
+class Cube extends Shape3D { }
+
+// ...  classes which extends Shape3D</code></pre> 
+  <p>Implement a method that takes an array of shapes and counts how many objects of classes that extend <code class="language-java">Shape2D</code> the array contains. Do not count objects of <code class="language-java">Shape2D</code>, only its subclasses.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/3571">Show topic summary</a>

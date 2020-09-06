@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "/**\n    Box for cakes\n*/\nclass CakeBox {\n\n    private Cake cake;\n\n\
+    \    public void put(Cake cake) {\n    \tthis.cake = cake;\n    }\n\n    public\
+    \ Cake get() {\n        return this.cake;\n    }\n}\n\n/**\n    Box for pies\n\
+    */\nclass PieBox {\n\n    private Pie pie;\n\n    public void put(Pie pie) {\n\
+    \    \tthis.pie = pie;\n    }\n\n    public Pie get() {\n        return this.pie;\n\
+    \    }\n}\n\n\n/**\n    Box for tarts\n*/\nclass TartBox {\n\n    private Tart\
+    \ tart;\n\n    public void put(Tart tart) {\n    \tthis.tart = tart;\n    }\n\n\
+    \    public Tart get() {\n        return this.tart;\n    }\n}\n\n/*\n    Hundred\
+    \ more such boring classes OR ...\n    magic class for everything everybody is\
+    \ waiting for\n*/\nclass Box...\n\n// Don't change classes below\nclass Cake {\
+    \ }\n\nclass Pie { }\n\nclass Tart { }"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2597
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2597">JetBrains
+    Academy</a></html>
+  time: Sat, 05 Sep 2020 15:33:27 UTC
+record: -1

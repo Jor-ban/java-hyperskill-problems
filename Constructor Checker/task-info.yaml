@@ -15,9 +15,9 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2879
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed. Wrong answer
-  time: Sun, 30 Aug 2020 00:18:34 UTC
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2879">JetBrains
+    Academy</a></html>
+  time: Mon, 31 Aug 2020 11:10:14 UTC
 record: -1

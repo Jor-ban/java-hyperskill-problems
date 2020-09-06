@@ -1,0 +1,28 @@
+<h2>Convert to byte array</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Imagine that we have a typing machine that accepts only one letter at a time for writing, but we want to write an array of words instead.</p> 
+  <pre><code class="language-java">public class LetterPrinter {
+    public void write(char letter) {
+        //implementation
+    }
+}</code></pre> 
+  <p>To adapt an input to the <code class="language-java">LetterPrinter</code> we need to write a converter from <code class="language-java">String[]</code> to <code class="language-java">char[]</code> and pass letters one by one to <code class="language-java">LetterPrinter</code> instance:</p> 
+  <pre><code class="language-java">public void writeWords(String[] words) throws IOException {
+    LetterPrinter printer = new LetterPrinter();
+
+    char[] letters = convert(words); // converting method
+    for (char letter : letters) {
+       printer.write(letter);
+    }
+}</code></pre> 
+  <p>Implement the <code class="language-java">convert</code> method that converts <code class="language-java">String[]</code> to <code class="language-java">char[]</code>.</p> 
+  <p>Hint: use <code class="language-java">CharArrayWriter</code>.</p> 
+  <p>Example:<br> Input: <code class="language-java">["This", " ", "is", " ", "a", " ", "test"]</code><br> Output: <code class="language-java">["T", "h", "i", "s", " ", "i", "s", " ", "a", " ", "t", "e", "s", "t"]</code></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/8837">Show topic summary</a>

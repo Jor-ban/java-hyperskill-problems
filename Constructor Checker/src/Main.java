@@ -1,10 +1,12 @@
 import java.lang.reflect.Constructor;
 
-
+/**
+ Check whether the class declares public parameterless constructor
+ */
 class ConstructorChecker {
 
     public boolean checkPublicParameterlessConstructor(Class<?> clazz) {
-        Constructor[] constructors = clazz.getDeclaredConstructors();
+        Constructor[] constructors = clazz.getConstructors();
 
         for (Constructor constructor : constructors) {
             Class[] params = constructor.getParameterTypes();
@@ -14,4 +16,5 @@ class ConstructorChecker {
         }
         return false;
     }
+
 }

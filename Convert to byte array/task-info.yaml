@@ -1,0 +1,20 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.io.IOException;
+
+    class Converter {
+        public static char[] convert(String[] words) throws IOException {
+            // implement the method
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8846
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8846">JetBrains
+    Academy</a></html>
+  time: Sat, 05 Sep 2020 10:30:49 UTC
+record: -1

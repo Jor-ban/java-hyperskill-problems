@@ -1,0 +1,64 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    // Don't delete this import statement
+    import java.util.Scanner;
+
+    class SimpleCalculator {
+
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+            long num1 = scanner.nextLong();
+            String operator = scanner.next();
+            long num2 = scanner.nextLong();
+
+            // Change switch statement so it calls implemented methods
+            switch (operator) {
+                case "+":
+                    System.out.println(num1 + num2);
+                    break;
+
+                case "-":
+                    System.out.println(num1 - num2);
+                    break;
+
+                case "/":
+                    if (num2 == 0) {
+                        System.out.println("Division by 0!");
+                    } else {
+                        System.out.println(num1 / num2);
+                    }
+                    break;
+
+                case "*":
+                    System.out.println(num1 * num2);
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+        //Implement your methods here
+        public static long subtractTwoNumbers...
+
+
+        public static long sumTwoNumbers...
+
+
+        public static long divideTwoNumbers...
+
+
+        public static long multiplyTwoNumbers...
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10576
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10576">JetBrains
+    Academy</a></html>
+  time: Sat, 05 Sep 2020 13:52:25 UTC
+record: -1

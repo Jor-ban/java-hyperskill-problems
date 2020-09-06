@@ -1,0 +1,35 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "import java.util.Arrays;        \n\nclass Determiner {\n\n    public static\
+    \ void determineWhoIsWho(Employee[] employees) {\n        for (Employee employee\
+    \ : employees) {\n            System.out.println(\"EMP\");\n        }\n    }\n\
+    }\n\n// Don't change the code below\nclass Employee {\n\n    protected String\
+    \ name;\n    protected String email;\n    protected int experience;\n\n    public\
+    \ Employee(String name, String email, int experience) {\n        this.name = name;\n\
+    \        this.email = email;\n        this.experience = experience;\n    }\n\n\
+    \    public String getName() {\n        return name;\n    }\n\n    public String\
+    \ getEmail() {\n        return email;\n    }\n\n    public int getExperience()\
+    \ {\n        return experience;\n    }\n}\n\nclass Developer extends Employee\
+    \ {\n\n    private String mainLanguage;\n    private String[] skills;\n\n    public\
+    \ Developer(String name, String email, int experience, String mainLanguage, String[]\
+    \ skills) {\n        super(name, email, experience);\n        this.mainLanguage\
+    \ = mainLanguage;\n        this.skills = skills != null ? skills : null;\n   \
+    \ }\n\n    public String getMainLanguage() {\n        return mainLanguage;\n \
+    \   }\n\n    public String[] getSkills() {\n        return Arrays.copyOf(skills,\
+    \ skills.length);\n    }\n}\n\nclass DataAnalyst extends Employee {\n\n    private\
+    \ boolean phd;\n    private String[] methods;\n\n    public DataAnalyst(String\
+    \ name, String email, int experience, boolean phd, String[] methods) {\n     \
+    \   super(name, email, experience);\n        this.phd = phd;\n        this.methods\
+    \ = methods != null ? methods : null;\n    }\n\n    public boolean isPhD() {\n\
+    \        return phd;\n    }\n\n    public String[] getMethods() {\n        return\
+    \ Arrays.copyOf(methods, methods.length);\n    }\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2207
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2207">JetBrains
+    Academy</a></html>
+  time: Mon, 31 Aug 2020 12:03:45 UTC
+record: -1

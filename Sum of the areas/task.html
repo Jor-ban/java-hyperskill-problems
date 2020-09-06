@@ -1,0 +1,46 @@
+<h2>Sum of the areas</h2>
+<html>
+ <head></head>
+ <body>
+  <p>You are given the following classes:</p> 
+  <pre><code class="language-java">class Shape {
+}
+
+class Square extends Shape {
+    private int side;
+
+    public int getSide() {
+        return side;
+    }
+
+    public void setSide(int side) {
+        this.side = side;
+    }
+}
+
+class Rectangle extends Shape {
+    private int width, height;
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+}</code></pre> 
+  <p>Unfortunately, the author of this class hierarchy forgot to add the <code class="language-java">getArea()</code> method to these classes. Now you need to implement a method that calculates the sum of areas of the <code class="language-java">Shape</code> array. If some elements are instances of the class <code class="language-java">Shape</code>, their area equals 0.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/3571">Show topic summary</a>
