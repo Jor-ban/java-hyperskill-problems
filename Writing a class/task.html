@@ -1,0 +1,41 @@
+<h2>Writing a class</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Three classes are given:</p> 
+  <pre><code class="language-java">class Book {
+}
+
+class Brochure extends Book {
+
+    private String name;
+
+    Brochure(String name) {
+        this.name = name;
+    }
+
+    String getName() {
+        return name;
+    }
+
+    void setName(String name) {
+        this.name = name;
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        Brochure brochure = new Brochure("NewBrochure");
+        Shelf&lt;Brochure&gt; shelf = new Shelf&lt;&gt;();
+        shelf.setElement(brochure);
+        System.out.println(shelf.getElement().getName());
+    }
+}</code></pre> 
+  <p>Write a generic <code class="language-java">Shelf</code> class which will have a field, containing a type of object, and methods <code class="language-java">getElement()</code> and <code class="language-java">setElement()</code>. The first method has to return an object which is contained in <code class="language-java">Shelf</code> (which is assigned to the field), the second one is to assign a passed object to the field. The class <code class="language-java">Shelf</code> must accept only different types of books (subtypes of <code class="language-java">Book</code> class)!</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/8216">Show topic summary</a>

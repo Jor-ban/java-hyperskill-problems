@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "/**\n    This packer has too much freedom and could repackage stuff in wrong\
+    \ direction.\n    Fix method types in signature and add implementation. \n*/\n\
+    class Packer {\n\n\tpublic void repackage(Box to, Box from) {\n\t\t// Implement\
+    \ repackaging\n\t}\n\n}\n\n// Don't change classes below\nclass Box<T> {\n\n \
+    \   private T item;\n\n    public void put(T item) {\n    \tthis.item = item;\n\
+    \    }\n\n    public T get() {\n        return this.item;\n    }\n\n}\n\nclass\
+    \ Goods {}\n\nclass Food extends Goods {}\n\nclass Bakery extends Food {}\n\n\
+    class Cake extends Bakery {}\n\nclass Pie extends Bakery {}\n\nclass Tart extends\
+    \ Bakery {}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2640
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2640">JetBrains
+    Academy</a></html>
+  time: Wed, 09 Sep 2020 17:05:22 UTC
+record: -1

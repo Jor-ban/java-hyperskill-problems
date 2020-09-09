@@ -1,0 +1,45 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class BoxInside {
+
+        // Complete this method
+        public static void showAnimal...
+    }
+
+    // Don't change the code below
+    class Animal {
+
+        private String name;
+
+        public Animal(String name) {
+            this.name = name;
+        }
+
+        public String toString() {
+            return name;
+        }
+    }
+
+    class Box<T> {
+
+        private T animal;
+
+        void setAnimal(T animal) {
+            this.animal = animal;
+        }
+
+        T getAnimal() {
+            return animal;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9886
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9886">JetBrains
+    Academy</a></html>
+  time: Wed, 09 Sep 2020 22:06:04 UTC
+record: -1

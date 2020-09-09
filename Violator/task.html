@@ -1,0 +1,43 @@
+<h2>Violator</h2>
+<html>
+ <head></head>
+ <body>
+  <p>You are asked to perform a security audit in a baking company. Their products are represented by <code class="language-java">Bakery</code> class and its different subclasses like <code class="language-java">Cake</code> and <code class="language-java">LemonTart</code>. All the pastries are sold in nice boxes. Prior to being released to the customer, all boxes are checked with carefully designed <code class="language-java">NaiveQualityControl</code> class. However, recently a number of mistakes happened and unedible things were packed in boxes and escaped the quality check.</p> 
+  <p>A short look at <code class="language-java">NaiveQualityControl</code> led you to the conclusion that it's quite easy to provide <code class="language-java">NaiveQualityControl</code> with <code class="language-java">Box</code> filled with <code class="language-java">Paper</code> that will pass QC. Now your task is to demonstrate this mistake. Here's the code:</p> 
+  <pre><code class="language-java">/* This class and its subclasses should pass quality check */
+class Bakery {}
+
+class Cake extends Bakery {}
+
+/* This one should not */
+class Paper {}
+
+/* These boxes are used to pack stuff */
+class Box&lt;T&gt; {
+    void put(T item) { /* implementation omitted */ }
+    T get() { /* implementation omitted */ }
+}
+
+/* This quality checker ensures that boxes for sale contain Bakery and anything else */
+class NaiveQualityControl {
+  
+  public static boolean check(List&lt;Box&lt;? extends Bakery&gt;&gt; boxes) {
+    /* Method signature guarantees that all illegal 
+       calls will produce compile-time error... or not? */  
+    return true;  
+  }
+  
+}</code></pre> 
+  <p>You need to add implementation to <code class="language-java">Violator.defraud()</code> method that will do the following:</p> 
+  <ul> 
+   <li>Create <code class="language-java">List of Boxes&lt;? extends Bakery&gt;</code> according to the method signature</li> 
+   <li>Put <code class="language-java">Paper</code> object in at least one <code class="language-java">Box</code> in the list</li> 
+   <li>The resulting list should pass <code class="language-java">NaiveQualityControl</code>check</li> 
+  </ul> 
+  <p>Do not change the method signature or code of any other classes, just add implementation to defraud method.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/10086">Show topic summary</a>

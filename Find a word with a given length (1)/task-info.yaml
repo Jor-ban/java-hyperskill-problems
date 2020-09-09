@@ -1,0 +1,23 @@
+type: code
+custom_name: Find a word with a given length
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+    import java.util.regex.*;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int size = Integer.parseInt(scanner.nextLine());
+            String line = scanner.nextLine();
+
+            // write your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4347
+status: Solved
+record: -1

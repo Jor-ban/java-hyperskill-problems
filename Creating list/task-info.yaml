@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+
+    public class Main {
+
+        public static void main(String[] args) {
+
+
+            //write your code here
+
+
+            System.out.println(list);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2321
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2321">JetBrains
+    Academy</a></html>
+  time: Sun, 06 Sep 2020 13:28:38 UTC
+record: -1
