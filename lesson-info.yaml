@@ -1,8 +1,17 @@
 content:
-- Pets and boxes
-- From string to a number
-- Find a word with a given length (1)
-- Packing backeries
-- Pets in boxes
-- List multiplicator
-- Violator
+- Find a value's index
+- The number of occurrences
+- Count elements of an array in another one
+- The index of the K occurrence
+- Blacklist
+- Squares list
+- The secret enumeration
+- Greek letters
+- Companies
+- Filtering the list
+- Creating a set
+- Removing elements
+- Symmetric difference
+- Creating a map
+- Counting words
+- Multiset

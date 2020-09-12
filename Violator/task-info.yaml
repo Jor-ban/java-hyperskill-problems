@@ -15,5 +15,15 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/4894
-status: Unchecked
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:17: error: List is abstract; cannot be instantiated
+            var list = new List<Box<? extends Bakery>>();
+                       ^
+    Note: Main.java uses unchecked or unsafe operations.
+    Note: Recompile with -Xlint:unchecked for details.
+    1 error
+  time: Thu, 10 Sep 2020 19:14:52 UTC
 record: -1

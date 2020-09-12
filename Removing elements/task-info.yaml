@@ -1,0 +1,37 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+
+    class SetUtils {
+
+        public static Set<Integer> getSetFromString(String str) {
+            // write your code here
+        }
+
+        public static void removeAllNumbersGreaterThan10(Set<Integer> set) {
+            // write your code here
+        }
+
+    }
+
+    /* Do not change code below */
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            String numbers = scanner.nextLine();
+            Set<Integer> set = SetUtils.getSetFromString(numbers);
+            SetUtils.removeAllNumbersGreaterThan10(set);
+            set.forEach(e -> System.out.print(e + " "));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2334
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2334">JetBrains
+    Academy</a></html>
+  time: Sat, 12 Sep 2020 20:08:02 UTC
+record: -1

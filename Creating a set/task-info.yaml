@@ -1,0 +1,22 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            // write your code here
+            System.out.println(set);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2330
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2330">JetBrains
+    Academy</a></html>
+  time: Sat, 12 Sep 2020 19:33:26 UTC
+record: -1

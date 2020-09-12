@@ -1,0 +1,40 @@
+<h2>Multiset</h2>
+<html>
+ <head></head>
+ <body>
+  <p></p>
+  <div class="alert alert-primary">
+   Wow! This problem is kind of tricky. If you're ready to put your thinking cap on, brace yourself and good luck! Otherwise, you can skip it for now and return any time later
+  </div>
+  <p></p> 
+  <p>To deal with various tasks you may need collections which are not included in standard Java libraries. In this case, let’s create a collection that represents the concept of multiset, which is a generalization of a set. </p> 
+  <p>Multiset is a collection that supports order-independent equality. As with sets, the order of the elements in a multiset does not matter. Unlike sets, multiset can store duplicate elements. The number of instances of an element is called multiplicity.</p> 
+  <p>For example, let’s consider the following multiset:</p> 
+  <p><code class="java">{a, a, b, b, b, c}</code></p> 
+  <p>The multiplicity of a is 2, the multiplicity of b is 3, the multiplicity of c is 1. If a multiset does not have an element, the multiplicity of it is 0.</p> 
+  <p>In this task, you should implement all methods of the generic class <code class="java">HashMultiset</code> according to its interface. This class is based on the <code class="java">HashMap</code> class. The description of the methods is provided in the interface. It will help you to understand the common Multiset operations (add, remove, union, intersection and so on). Feel free to use additional methods if it is necessary for your solution.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-1401').style.display='inline'"> Hint </button> </p>
+  <div id="hint-1401" style="display:none;">
+   If you have difficulties with union and intersection operations, look at the examples below:
+   <p></p> 
+   <p><strong>Union</strong><br> <br> Initial multisets:</p> 
+   <p><code class="java">{1, 2, 2, 2, 4}</code></p> 
+   <p><code class="java">{2, 2, 4, 5, 6}</code></p> 
+   <p>Result:</p> 
+   <p><code class="java">{1, 2, 2, 2, 4, 5, 6}</code></p> 
+   <p><br> <strong>Intersection</strong></p> 
+   <p> </p> 
+   <p>Initial multisets:</p> 
+   <p><code class="java">{1, 2, 2, 2, 4}</code></p> 
+   <p><code class="java">{2, 2, 4, 5, 6}</code></p> 
+   <p>Result:</p> 
+   <p><code class="java">{2, 2, 4}</code></p> 
+   <p></p>
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/3558">Show topic summary</a>
