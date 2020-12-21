@@ -1,0 +1,24 @@
+<h2>Pick your team</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Imagine that you're creating teams to organize events. You need a module for your program that will select the people for these teams.</p> 
+  <p>There are only two selection algorithms:</p> 
+  <ul> 
+   <li>take every <strong>k</strong>-th person, or every person if k =1;</li> 
+   <li>take the last <strong>k</strong> people, or the last person if k = 1.</li> 
+  </ul> 
+  <p>You decided to use the <strong>strategy pattern</strong> in the module because new selection algorithms will be added in the future. Also, the pattern allows you to change the current algorithm at runtime.</p> 
+  <p>The basic structure of classes is provided below, but it doesn't work properly yet.</p> 
+  <p>Your goal is to implement the following methods:</p> 
+  <ul> 
+   <li><code class="java">setAlgorithm</code> and <code class="java">selectPersons</code> methods of the class <code class="java">SelectionContext</code>;</li> 
+   <li><code class="java">select</code> of the class <code class="java">TakePersonsWithStepAlgorithm</code> to take every <strong>k</strong>-th person <strong>starting with the index 0</strong> in the same order as in the input array (when <strong>k</strong> is 3, then it must take 0, 3, 6, ... persons);</li> 
+   <li><code class="java">select</code> of the class <code class="java">TakeLastPersonsAlgorithm</code> to take the last <strong>k</strong> persons in the same order as the input array.</li> 
+  </ul> 
+  <p>Perhaps, you should add some fields to the classes as well.</p> 
+  <p>Please do not change the class <code class="java">Person</code> and the interface <code class="java">PersonSelectionAlgorithm</code>, and do not rename existing methods.</p> 
+  <p><strong>HINT: </strong>tests 1–4 check <code class="java">TakePersonsWithStepAlgorithm</code>, tests 5–8 check <code class="java">TakeLastPersonsAlgorithm</code>. Do not forget to check your solution when the step is 1 or the input array consists of a single element.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/3556">Show topic summary</a>

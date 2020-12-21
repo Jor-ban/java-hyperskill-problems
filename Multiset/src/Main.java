@@ -62,16 +62,19 @@ interface Multiset<E> {
 class HashMultiset<E> implements Multiset<E> {
 
     private Map<E, Integer> map = new HashMap<>();
-    int size = 0;
 
     @Override
     public void add(E elem) {
-        // implement the method
+        if (map.containsValue(elem)) {
+            map.replace(elem, map.get(elem) + 1);
+        } else {
+            map.put(elem, 1);
+        }
     }
 
     @Override
     public void remove(E elem) {
-        // implement the method
+        map.remove(elem);
     }
 
     @Override
@@ -81,30 +84,33 @@ class HashMultiset<E> implements Multiset<E> {
 
     @Override
     public void intersect(Multiset<E> other) {
-        // implement the method
+        var temp1 = new HashSet<E>(map.keySet());
+        var temp2 = new HashSet<E>((Collection<E>) other);
+
+        temp1.removeAll((Collection<E>) other);
+        temp2.removeAll(map.keySet());
+
+        map.((Collection<E>) other);
     }
 
     @Override
     public int getMultiplicity(E elem) {
-        // implement the method
-        return 0;
+        return map.get(elem);
     }
 
     @Override
     public boolean contains(E elem) {
-        // implement the method
-        return false;
+        return map.containsKey(elem);
     }
 
     @Override
     public int numberOfUniqueElements() {
-        // implement the method
-        return 0;
+        return map.size();
     }
 
     @Override
     public int size() {
-        return size;
+        return map.size();
     }
 
     @Override

@@ -1,0 +1,36 @@
+<h2>Mutable geometric shapes</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Suppose, you are writing a geometric engine. Now it includes classes <code class="language-java">Circle</code>, <code class="language-java">Rectangle</code> and interfaces <code class="language-java">Movable</code> and <code class="language-java">Scalable</code>.</p> 
+  <p><strong>You need:</strong></p> 
+  <ol> 
+   <li>to write a new interface <code class="language-java">MutableShape</code> that extends both existing interfaces;</li> 
+   <li>to implement the new interface in each class;</li> 
+   <li>to override methods <code class="language-java">move</code> and <code class="language-java">scale</code> in both classes: 
+    <ul> 
+     <li><code class="language-java">scale</code> should multiply the <code class="language-java">radius</code> of a circle by the specified <code class="language-java">factor</code>;</li> 
+     <li><code class="language-java">scale</code> should multiply <code class="language-java">width</code> and <code class="language-java">height</code> of a rectangle by the specified <code class="language-java">factor</code>;</li> 
+     <li><code class="language-java">move</code> should add <code class="language-java">dx</code> and <code class="language-java">dy</code> to the center of a circle;</li> 
+     <li><code class="language-java">move</code> should add <code class="language-java">dx</code> and <code class="language-java">dy</code> to the upper-left corner of a rectangle.</li> 
+    </ul> </li> 
+  </ol> 
+  <p>See the provided code and read comments to understand your task better. Now the code is not compiled.</p> 
+  <p><strong>Note:</strong></p> 
+  <ul> 
+   <li>do not remove existing classes and their members (including getters and constructors).</li> 
+   <li>do not make your classes and interfaces <code class="language-java">public</code></li> 
+  </ul> 
+  <p>After your changes, the following code should be compiled:</p> 
+  <pre><code class="language-java">MutableShape circle = new Circle(2.0f, 3.5f, 10.1f);
+
+circle.move(10.1f, 20.2f);
+circle.scale(2.2f);
+
+((Circle) circle).getRadius();</code></pre>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/3615">Show topic summary</a>

@@ -1,0 +1,19 @@
+<h2>Max and Min</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Use the strategy pattern to implement algorithms to find max and min values in a given array. The basic structure of the provided classes is described below: your job is to complete it.</p> 
+  <p>The class <code class="java">Finder</code> represents the general finding algorithm itself. It has <code class="java">find(int[] numbers)</code> method that returns the result of finding according to the specified strategy.</p> 
+  <p>The interface <code class="java">FindingStrategy</code> provides <code class="java">getResult()</code> method to write new concrete finding strategies.</p> 
+  <p>Please, do not change the interface <code class="java">FindingStrategy</code>, and do not rename the existing methods.</p> 
+  <p>If the array is empty, the <code class="java">Finder</code> should return <code class="java">Integer.MAX_VALUE</code> in case of finding the min value and <code class="java">Integer.MIN_VALUE</code> in case of finding the max value.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-853').style.display='inline'"> Hint </button> </p>
+  <div id="hint-853" style="display:none;">
+   Tests 1-5 check 
+   <code class="java">MinFindingStrategy</code>, tests 6-10 check 
+   <code class="java">MaxFindingStrategy</code>. Do not forget to check your solution when the passed array has the size 0 or 1.
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/3556">Show topic summary</a>

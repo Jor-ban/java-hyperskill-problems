@@ -1,0 +1,20 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Arrays;
+
+    public class Main {
+
+        public static void main(String[] args) {
+
+            int[] numbers; // initialize the array
+
+            System.out.println(Arrays.toString(numbers));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2706
+status: Solved
+record: -1

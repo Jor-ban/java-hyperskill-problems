@@ -1,0 +1,74 @@
+type: code
+custom_name: Template Method
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    abstract class Meal {
+
+        /**
+         * It provides template method of meal routine.
+         */
+        public void doMeal() {
+            // write your code here ...
+        }
+
+        public abstract void prepareIngredients();
+        public abstract void cook();
+
+        public void eat() {
+            System.out.println("That's good");
+        }
+
+        public abstract void cleanUp();
+    }
+
+    class Steak extends Meal {
+
+        @Override
+        public void prepareIngredients() {
+            System.out.println("Ingredients: beef steak, lemon, olive oil, salt, sugar");
+        }
+
+        @Override
+        public void cook() {
+           System.out.println("Fry the steak in the pan");
+        }
+
+         @Override
+         public void cleanUp() {
+            System.out.println("Push dishes in the sink and go coding");
+         }
+    }
+
+    class Sandwich extends Meal {
+        // write your code here ...
+    }
+
+    public class Main {
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final String order = scanner.nextLine();
+            scanner.close();
+            Meal meal = null;
+            if ("Sandwich".equals(order)) {
+                meal = new Sandwich();
+                meal.doMeal();
+            } else if ("Steak".equals(order)) {
+                meal = new Steak();
+                meal.doMeal();
+            } else {
+                System.out.println("Error");
+            }
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5203
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/5203">JetBrains
+    Academy</a></html>
+  time: Wed, 16 Sep 2020 22:35:28 UTC
+record: -1

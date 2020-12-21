@@ -9,8 +9,5 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/10656
-status: Failed
-feedback:
-  message: 'Unknown language: java11. Please reload the page and try again'
-  time: Thu, 10 Sep 2020 20:19:32 UTC
+status: Solved
 record: -1

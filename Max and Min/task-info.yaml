@@ -1,0 +1,38 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "import java.util.Scanner;\n\nclass Finder {\n\n    private FindingStrategy\
+    \ strategy;\n\n    public Finder(FindingStrategy strategy) {\n        // write\
+    \ your code here\n    }\n\n    /**\n     * It performs the search algorithm according\
+    \ to the given strategy\n     */\n    public int find(int[] numbers) {\n     \
+    \   // write your code here\n    }\n}\n\ninterface FindingStrategy {\n\n    /**\n\
+    \     * Returns search result\n     */\n    int getResult(int[] numbers);\n\n\
+    }\n\nclass MaxFindingStrategy implements FindingStrategy {\n\n    public int getResult(int[]\
+    \ numbers) {\n        // write your code here\n    }\n}\n\nclass MinFindingStrategy\
+    \ implements FindingStrategy {\n\n    public int getResult(int[] numbers) {\n\
+    \        // write your code here\n    }\n}\n\n/* Do not change code below */\n\
+    public class Main {\n\n    public static void main(String[] args) {\n\n      \
+    \  final Scanner scanner = new Scanner(System.in);\n\n        final String[] elements\
+    \ = scanner.nextLine().split(\"\\\\s+\");\n        int[] numbers = null;\n\n \
+    \       if (elements[0].equals(\"EMPTY\")) {\n            numbers = new int[0];\
+    \   \n        } else {\n            numbers = new int[elements.length];\n    \
+    \        for (int i = 0; i < elements.length; i++) {\n                numbers[i]\
+    \ = Integer.parseInt(elements[i]);\n            }\n        }\n\n        final\
+    \ String type = scanner.nextLine();\n\n        Finder finder = null;\n\n     \
+    \   switch (type) {\n            case \"MIN\":\n                finder = new Finder(new\
+    \ MinFindingStrategy());\n                break;\n            case \"MAX\":\n\
+    \                finder = new Finder(new MaxFindingStrategy());\n            \
+    \    break;\n            default:\n                break;\n        }\n\n     \
+    \   if (finder == null) {\n            throw new RuntimeException(\n         \
+    \           \"Unknown strategy type passed. Please, write to the author of the\
+    \ problem.\");\n        }\n\n        System.out.println(finder.find(numbers));\n\
+    \    }\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3331
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/3331">JetBrains
+    Academy</a></html>
+  time: Tue, 15 Sep 2020 23:22:01 UTC
+record: -1
